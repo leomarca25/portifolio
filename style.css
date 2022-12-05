@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@500&family=Spectral:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagem/IMG_4291.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #9400d3;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li :hover {
+    color: #9400d3;
+    transition: .4s
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3,
+h4 {
+    color: white;
+    font-size: 25px;
+}
+
+.sobremim {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #171717;
+}
+
+.sobremim img {
+    height: auto;
+    width: 750px;
+}
+
+.sobremim-text {
+    width: 100%;
+}
+
+.main {
+    width: 1920px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sobremim-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.sobremim-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.sobremim-text p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.service {
+    background-color: #171717;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+}
+
+.card {
+    height: 580px;
+    width: 550px;
+    padding: 20px 35px;
+    background: #383838;
+    border-radius: 20px;
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i {
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #9400d3;
+}
+
+h5 {
+    color: white;
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+
+.pra p {
+    color: white;
+    font-size: 32px;
+    line-height: 45px;
+    margin-bottom: 50px;
+}
+
+.card .button {
+    background-color: #9400d3;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid #9400d3;
+    cursor: pointer;
+}
+
+.contato {
+    width: 100%;
+    background-color: #171717;
+    padding: 100px 0px;
+}
+
+
+
+.box-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card-title {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: #383838;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.title-contato h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.contato i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #9400d3;
+}
+
+.contato h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.contato .button-two {
+    background-color: #9400d3;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.contato .button-two:hover {
+    background-color: transparent;
+    border: 2px solid #9400d3;
+    cursor: pointer;
+}
