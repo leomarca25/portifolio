@@ -23,19 +23,19 @@
     <!--Hero Section Start-->
 
     <div class="hero">
-        <nav>
+        <header class="styckerly">
             <h2 class="logo">Portifó<span>lio</span></h2>
-            <ul>
-                <li><a href="#">Home</a></li>
+            <ul class="nav-bar">
+                <li><a href="#home">Home</a></li>
                 <li><a href="#sobre">Sobre mim</a></li>
-                <li><a href="#trabalho">Trabalhos</a></li>
                 <li><a href="#habilidade">Habilidades</a></li>
+                <li><a href="#trabalho">Trabalhos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
 
-        </nav>
+        </header>
 
-        <div class="content">
+        <div class="content" id="home">
             <h4>Olá meu nome é</h4>
             <h1>Leonardo <span>Marcarini</span></h1>
             <h3>e eus sou UX/UI Designer</h3>
@@ -61,6 +61,32 @@
         </div>
     </section>
 
+
+    <!--Habilidade-->
+    <section id="habilidade" class="habilidade">
+        <div class="title-habilidade">
+            <h2>Habilidades</h2>
+            <p>Aqui estão algumas de minhas Habilidades </p>
+        </div>
+        <div class="box-contato">
+            <div class="card-title">
+                <i class="fa-brands fa-html5"></i>
+                <h5>HTML5</h5>
+            </div>
+
+            <div class="box-contato">
+                <div class="card-title">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h5>CSS</h5>
+                </div>
+
+                <div class="box-contato">
+                    <div class="card-title">
+                        <i class="fa-brands fa-square-js"></i>
+                        <h5>JAVASCRIPT</h5>
+                    </div>
+    </section>
+
     <!--Portifólio-->
 
     <section id="trabalho" class="service">
@@ -68,20 +94,18 @@
             <h2>Trabalhos</h2>
         </div>
 
-
         <div class="box">
-            <div class="card">
-                <i class="fa-brands fa-square-behance"></i>
-                <h5>Behance</h5>
-                <div class="pra">
-                    <p>Consulte meu portifólio no Behance!</p>
-
-                    <p style="text-align: center;">
-                        <a class="button" href="https://www.behance.net/leonardmarcari">Ver portifólio</a>
-                    </p>
-                </div>
-            </div>
+            <img src="Imagem/MOCKUP.png">
+            <p>Book Navigator</p>
+            <h5>Aplicativo baseado em biblioteca virtual, onde você pode controlar onde estão seus livros.
+                No aplicativo você possui 2 marcações, uma para saber se livro esta guardado, outra para saber se o
+                livro esta emprestado.
+                Uma vez que o livro está emprestado ele fica marcado com uma fita vermelha e mostra a data do
+                empréstimo.</h5>
         </div>
+
+
+
     </section>
 
     <!--Contato-->
@@ -109,6 +133,12 @@
             </div>
         </div>
     </section>
+
+
+
+    <!--Link p/ js-->
+
+    <script type="text/javascript" src="js/script.js"></script>
 
 
 </body>

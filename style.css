@@ -5,6 +5,10 @@
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3.5rem;
 }
 
 .hero {
@@ -15,14 +19,21 @@
     background-position: center;
 }
 
-nav {
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
+    background: transparent;
+    padding: 25px 15%;
+    transition-duration: .3s;
 }
+
+
 
 .logo {
     color: white;
@@ -35,23 +46,25 @@ span {
     color: #9400d3;
 }
 
-nav ul li {
+header ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
 }
 
-nav ul li a {
+header ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
 }
 
-nav ul li :hover {
+header ul li :hover {
     color: #9400d3;
     transition: .4s
 }
+
+
 
 .content {
     position: absolute;
@@ -133,25 +146,7 @@ h4 {
     text-align: center;
 }
 
-.box {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 800px;
-}
-
-.card {
-    height: 580px;
-    width: 550px;
-    padding: 20px 35px;
-    background: #383838;
-    border-radius: 20px;
-    margin: 30px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
 
 .card i {
     font-size: 100px;
@@ -227,7 +222,7 @@ h5 {
 }
 
 .contato i {
-    font-size: 50px;
+    font-size: 80px;
     display: block;
     text-align: center;
     margin: 25px 0px;
@@ -236,8 +231,9 @@ h5 {
 
 .contato h5 {
     color: white;
-    font-size: 23px;
-    margin-bottom: 15px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .contato .button-two {
@@ -255,4 +251,84 @@ h5 {
     background-color: transparent;
     border: 2px solid #9400d3;
     cursor: pointer;
+}
+
+
+.habilidade {
+    width: 100%;
+    background-color: #171717;
+    padding: 100px 0px;
+}
+
+
+.title-habilidade h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.title-habilidade p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.habilidade i {
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #9400d3;
+}
+
+.habilidade h5 {
+    color: white;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+
+.box {
+    width: 800px;
+    align-items: center;
+    margin: auto;
+}
+
+.box img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+    cursor: pointer;
+    transition: all .30s;
+}
+
+.box p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.box h5 {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    flex-wrap: wrap;
+    font-size: 18px;
+    text-align: center;
+    overflow-wrap: break-word;
+    margin-top: 25px;
 }
