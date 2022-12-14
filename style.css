@@ -332,3 +332,15 @@ h5 {
     overflow-wrap: break-word;
     margin-top: 25px;
 }
+
+.footer {
+    text-align: center;
+    background-color: #383838;
+    padding: 34px;
+}
+
+.footer p {
+    font-size: 17px;
+    color: #171717;
+    letter-spacing: 1px;
+}
