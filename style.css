@@ -12,7 +12,7 @@
 }
 
 .hero {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-image: url(Imagem/IMG_4291.png);
     background-size: cover;
